@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ept-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartao Socio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="image/logo1.png" alt="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cartão</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Para Os Verdadeiros<br><span>Les Rouge-et-Bleu</span></h2>
+                <p>Os cartões de videlidade da torcida do maior time da França dará a seus torcedores muitas vantagens em compras e aquisição de pontos em redes de compras, além do torcedor poder personalizar especialmente na cor do uniforme dos Rouge-et-Bleu.</p>
+                <a href="#">Veja todos os Cartões </a>
+            </div>
+            <div class="imgBox">
+                <img src="image/download.png" class="psg">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="image/download.png" onclick="imgSlider('image/download.png');changeBgColor('#01315e')"></li>
+            <li><img src="image/doyneamic.png" onclick="imgSlider('image/doyneamic.png');changeBgColor('#e60c2c')"></li>
+            <li><img src="image/logo3.png" onclick="imgSlider('image/logo3.png');changeBgColor('#1e1e1e')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="image/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="image/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="image/twitter.png" alt=""></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.psg').src = anything;
+
+        }
+        function changeBgColor(color){
+            const sec =document.querySelector('.sec');
+            sec.style.background = color;
+        }
+    </script>
+    
+</body>
+</html>
