@@ -144,4 +144,11 @@ header ul li a{
     section{
         padding: 40px;
     }
-}
+    header{
+        padding: 20px 40px;
+    }
+    header .logo{
+        position: relative;
+        max-width: 60px;
+    }
+    }
