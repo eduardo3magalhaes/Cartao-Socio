@@ -139,16 +139,5 @@ header ul li a{
     transform:scale(0.6) ;
 
 }
-@media (max-width:991px)
-{
-    section{
-        padding: 40px;
-    }
-    header{
-        padding: 20px 40px;
-    }
-    header .logo{
-        position: relative;
-        max-width: 60px;
-    }
-    }
+
+ 
